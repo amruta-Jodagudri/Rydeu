@@ -30,22 +30,22 @@ const HelpAndSupportPage = () => {
       <Navbar />
       <main className="help-main">
         <h1>Hello, how can we help you?</h1>
-        <p>Find Travel guide, FAQ, chat</p>
+        <p>Find guide, FAQ, chat</p>
 
         <section className="help-options">
           <div className="option-card">
             <div className="icon1">❓</div>
             <div className="title-text">
               <h2>FAQ</h2>
-              <p>Lorem ipsum dolor sit amet</p>
+              <p>Find answers to common questions</p>
             </div>
             <FaArrowRightToBracket className="small-screen-icon" />
           </div>
           <div className="option-card">
             <GrLocation className="profile-icon-large" />
             <div className="title-text">
-              <h2>Travel Guide</h2>
-              <p>Lorem ipsum dolor sit amet</p>
+              <h2>Social Sharing</h2>
+              <p>Explore & Discover Platform!</p>
             </div>
               <FaArrowRightToBracket className="small-screen-icon" />
           </div>
@@ -56,7 +56,7 @@ const HelpAndSupportPage = () => {
             <BsChatRightText className="chat-icon-large" />
             <div className="title-text">
               <h2>Chat</h2>
-              <p>Lorem ipsum dolor sit amet</p>
+              <p>Connect with us</p>
             </div>
             <button className="toggle-button" onClick={toggleIconsVisibility}>
               {isIconsVisible ? <FiChevronUp /> : <FiChevronDown />}
@@ -85,7 +85,7 @@ const HelpAndSupportPage = () => {
             <MdOutlineSocialDistance className="chat-icon-large" />
             <div className="title-text">
               <h2>Social</h2>
-              <p>Lorem ipsum dolor sit amet</p>
+              <p>Follow us and stay updated</p>
             </div>
             <button className="toggle-button" onClick={toggleIconVisibility}>
               {isIconVisible ? <FiChevronUp /> : <FiChevronDown />}
@@ -114,7 +114,7 @@ const HelpAndSupportPage = () => {
             <LuMailCheck className="chat-icon-large" />
             <div className="title-text">
               <h2>Send Query</h2>
-              <p>Lorem ipsum dolor sit amet</p>
+              <p>each out to us with your questions</p>
             </div>
             <button className="toggle-button" onClick={toggleFormVisibility}>
               {isFormVisible ? <FiChevronUp /> : <FiChevronDown />}

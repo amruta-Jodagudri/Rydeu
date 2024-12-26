@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <header className="help-header">
-      <div className="logo">LOGO</div>
+      <div className="logo">APJ</div>
 
       <div className="header-options">
         <div className="header-item">
